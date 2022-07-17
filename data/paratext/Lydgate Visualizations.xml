@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Visualizations</title>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="visualization.html">
+                <bibl>Information about the archive</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>One of the things I use to help me think through various issues in my teaching and
+                scholarship are visualizations. Generally, these take the form of charts and graphs
+                that illustrate aspects of the work, such as my <ref
+                    target="http://www.sandbox.matthewedavis.net/comparison_chart.html">layout of
+                    the speakers</ref> in late medieval place-and-scaffold drama alongside the
+                various stages they're performing on, or my <ref
+                    target="http://www.sandbox.matthewedavis.net/network_simulator.html">attempt to
+                    illustrate</ref> the corrosive influence of ideologically-motivated scholarship
+                on the transmittal of ideas via networks. In both these cases, the visualization is
+                intended to help you see the topic in a way that text may not provide. A mostly
+                complete list of the visualizations I've put together and where they can be found is
+                available on my professional site, as most of them are not Lydgate related and thus
+                aren't germane to what this site is intended for.</p>
+            <p>The primary visualization that is attached to this project, however, is not a chart
+                or graph. Rather, it is my <ref
+                    target="/Model/three/examples/chantry_chapel.html"
+                    >model</ref> of the Clopton chantry chapel at Holy Trinity, Long Melford. Since
+                the verses by Lydgate in that chapel exist on the walls rather than in a codex it
+                becomes necessary to move around the space to see them all, as I've written about
+                    <ref target="http://www.matthewedavis.net/node/14">elsewhere</ref>. In thinking
+                about transcribing and displaying the verses online, then, I wanted to be able to
+                replicate some of the experience of being inside the chapel space and simultaneously
+                viewing and not viewing everything at the same time. The model is my attempt to do
+                so, and more about the peculiarities of this particular model and how it was
+                constructed can be found <ref
+                    target="/archive.html#construction"
+                >here</ref>.</p>
+            <p>It should be noted that you can access the model in two ways through the site. The
+                first is via the link in the paragraph above, which will take you to a view of the
+                chapel as you just walk in, looking towards the carved hand (I hesitate to say
+                manicule, as it's not pointing, but it serves the same function) at the beginning of
+                the <emph>Testament</emph> verses. The second is by clicking on the "view model"
+                link in the upper left corner of verses from the chapel (where the icon for the
+                gathering, leaf, and page are in those codices I have a collation for). Clicking on
+                that link will take you to the model, but looking at the particular verse you
+                navigated to the site from. In both cases, however, you can center your view on
+                other items in the space (indicated by a note in the upper right of the model) and
+                click to go to the transcription and facing image of that item.</p>
+            <p>One final note: while I don't think they're particularly useful in terms of
+                navigating the items on this site (the "Works" and "Manuscripts" tabs above are more
+                useful in that regard) or speaking to specific aspects of the Lydgate corpus I also
+                have two visualizations built in part on the work I did theorizing the prototype of
+                the Advanced Research Consortium's <ref target="https://bigdiva.org/">BigDIVA</ref>
+                project. The intent for these was to provide a quick visual reference regarding how
+                Lydgate's works connect with their material witnesses, the other works they are
+                currently found alongside, and the other authors that are found alongside Lydgate in
+                his material corpus. This was done in the service of a larger intellectual interest
+                I have in the imperfect encoding and transmission of information in material
+                objects. As such, they exist primarily as an aid for talks given at the
+                International Congress on Medieval Studies at Western Michigan University and the
+                International Medieval Congress at the University of Leeds, but may be useful for
+                someone thinking about how particular poems relate to each other across multiple
+                witnesses. A two-dimensional network visualization tool can be found <ref
+                    target="/forcedirect.php">here</ref>, while a
+                three-dimensional visualization of the same data can be found <ref
+                    target="/3d_graph/3d_graph.php">here</ref>.
+                Both of these items should be considered prototypes—really one-offs for illustrative
+                purposes—but they are included in case others find them useful.</p>
+
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">The Minor Works of John Lydgate</title>
+                <title type="sub">a Virtual Archive</title>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="index.html">
+                <bibl>Index page text for the Minor Works of John Lydgate.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Welcome to a virtual archive of the "minor" works of the fifteenth-century poet, John
+                Lydgate.</p>
+            <p>The goals of this project are twofold: first, it is an attempt to make some version
+                of the manuscripts and other media containing the works of Lydgate that exist in
+                less than twenty witnesses more accessible to scholars of the poet, students who may
+                have only read them in print editions, and individuals interested in manuscripts as
+                artifacts in their own right. To this end, it is intended to provide not a critical
+                edition of these poems, but to accurately transcribe and record the variations in
+                the witnesses – changes in the language, omissions, and insertions – that are
+                obscured sometimes by the traditional editorial process, without privileging one
+                witness over another. In this way the project might be considered an archive as
+                Trevor Owens <ref
+                    target="https://blogs.loc.gov/thesignal/2014/02/what-do-you-mean-by-archive-genres-of-usage-for-digital-preservers/"
+                    >describes</ref> it, as "effectively ... a kind of collection of materials that
+                hang together for a very particular reason."</p>
+            <p>Second, this project is meant to bridge a gap between the digital world, where
+                anything that cannot be concretely categorized is often left by the wayside, and the
+                physical object with its rich set of significations. This goal is less about the
+                archive as understood by the methodologies of archival theory or concentration on and
+                analysis of textual content. Instead, it is an attempt at praxis regarding some
+                theories about how to best preserve the messy, analogue, digitally liminal aspects
+                of the physical object that also encode meaning. To this end, rather than the
+                standard TEI document schema, which privleges the content of the text on the page
+                and renders secondary presentation, paratext, and physical structure of the material
+                object an <ref
+                    target="https://tei-c.org/release/doc/tei-p5-doc/fr/html/PH.html#PH-bov"
+                    >alternative TEI schema</ref> privileging the manuscript page as an object
+                alongside its textual content has been used throughout. Additionally, <ref
+                    target="/Model/three/examples/chantry_chapel.html">visualizations</ref>, icons,
+                and other tools have been or are planned to be used to continually remind the viewer
+                of the materiality of these items. In this way, the hope is that the physical object
+                is described and displayed virtually in a way that preserves the social,
+                interdisciplinary, and historical connections made by the physical object itself
+                while also holding to common and accepted metadata standards.</p>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Clopton Chantry Chapel</title>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="chantry_chapel.html">
+                <bibl>Clopton Chantry Chapel</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>You can control the camera via the arrow, u, and d keys. The mouse scroll will zoom in. A more robust control mechanism is ongoing, as is clickthrough to the individual panel transcriptions</p>
+            <p><ref target="../../archive.html#clopton_chapel_floor">Click here if you are wondering why the floor of the model has a hole in it.</ref></p>
+            <p>Note that the model is a large (120.2MB) and computationally intense file.  Please be patient, as it will take a few seconds to a minute to load, depending on your connection. </p>
+            <p><ref target="../../Model/three/examples/clopton_model.html" n="iframe"/></p>          
+        </body>
+    </text>
+</TEI>

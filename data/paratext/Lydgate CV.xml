@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Curriculum Vitae</title>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="CV.html">
+                <bibl>Curriculum Vitae</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <ref target="http://www.sandbox.matthewedavis.net/Matthew_Evan_Davis_CV.pdf" n="iframe"/>
+            </div>
+        </body>
+    </text>
+</TEI>

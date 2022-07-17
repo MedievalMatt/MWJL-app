@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Contact the Editor</title>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="contact.html">
+                <bibl>About the editor and contact information.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Dr. Matthew Evan Davis currently serves as a ZKS-Lendrum Postdoctoral Fellow, with a
+                title of Assitant Professor (Research), at the <ref
+                    target="https://www.durham.ac.uk/research/institutes-and-centres/medieval-early-modern-studies/"
+                    >Institute for Medieval and Early Modern Studies</ref> at <ref
+                    target="https://www.durham.ac.uk/homepage/">Durham University</ref> for the year
+                2022. Prior to that served as a Postdoctoral Fellow with the <ref
+                    target="http://scds.ca/about-the-centre/">Lewis and Ruth Sherman Centre for
+                    Digital Scholarship</ref> at <ref target="http://www.mcmaster.ca">McMaster
+                    University</ref>, held a Lindsey Young Visiting Faculty Fellowship
+                at the <ref target="http://www.utk.edu">University of Tennessee's</ref>
+                <ref target="http://marco.utk.edu">Marco Institute</ref> and served as the <ref
+                    target="http://www.clir.org">Council for Library and Information
+                Resources</ref>/Mellon Postdoctoral Fellow in Data Curation for Medieval Studies at
+                    <ref target="http://www.ncsu.edu">North Carolina State University</ref>. While
+                at North Carolina State he worked as part of the team on two similar projects — the
+                    <ref target="http://piers.iath.virginia.edu">Piers Plowman Electronic
+                    Archive</ref> and the <ref target="http://www.siegeofjerusalem.org">Siege of
+                    Jerusalem Electronic Archive</ref>, as well the Manuscript DNA project and the
+                    <ref target="http://www.mesa-medieval.org">Medieval Electronic Scholarly
+                    Alliance</ref>, an aggregator and discussion space for digital scholarly and
+                cultural heritage work regarding the Middle Ages.</p>
+            <p>His interest in Lydgate began with a visit to the Clopton chantry chapel for his
+                dissertation work on the varying significations of Mary Magdalene during the
+                fifteenth century in East Anglia. Once there, he found the connections between the
+                art, architecture, and verses on the chapel walls fascinating and reminscent of the
+                ways in which text and decoration work together in illuminated manuscripts. The
+                added performative dimension of the chapel as a religious space and the display of
+                the decoration in three dimensions sparked an in interest in the poems depicted
+                there, which eventually grew into the goal of the present archive: to document all
+                of Lydgate's minor works.</p>
+            <p>Besides his work on Lydgate, Dr. Davis also works on the staging practices of
+                medieval drama, cultural transmission through translation and reception, the history
+                of the book, and material and digital curation as a means of preserving both the
+                material object and the connections between the object, the content contained by
+                that object, and its cultural milieu.</p>
+            <p>His CV may be seen <ref target="CV.html">here</ref>, and he may be contacted via
+                email at <ref target="mailto:editor@minorworksoflydgate.net"
+                    >editor@minorworksoflydgate.net</ref>.</p>
+        </body>
+    </text>
+</TEI>

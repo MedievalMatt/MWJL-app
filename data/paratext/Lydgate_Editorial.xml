@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="Testament">
+                <title>Editorial Apparatus</title>
+                <author>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="unknown">
+                    <p>No part of this publication may be reproduced, stored in a retrieval system,
+                        or transmitted in any form or by any means, electronic, mechanical, or
+                        otherwise, without the written permission of the publisher.</p>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="apparatus.html">
+                <bibl>Editorial apparatus describing the transcription methodology for the Clopton
+                    Chantry Chapel.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="2014-06-28" who="#medavis" status="draft">Added xml:id block to
+                    sourceDesc.</change>
+                <change when="2014-06-27" who="#medavis" status="draft">Modified editorial to remove
+                    references to supplied text.</change>
+                <change when="2014-09-22" who="#medavis" status="draft">Modified xml:id block to
+                    sourceDesc in order to connect apparati to specific texts</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:id="GeneralEditorial">
+        <body>
+            <p>I utilize the system described by Michelle P. Brown in her <emph rend="italic">Guide
+                    to Western Historical Scripts from Antiquity to 1600</emph> (Toronto, 1993), but
+                modified for the purposes of presentation on the web. This is especially evident in
+                the case of painted items like the Clopton Chapel. Generally speaking, though:</p>
+            <list type="bulleted">
+                <item>Capitals, whether rubricated or illuminated, are given the most prominent
+                        color of the glyph proper. They are also set to the line height they appear to have in the text.
+                        So, for example, a two-line capital W that is predominantly red will appear
+                        thusly:
+                    <p><hi rend="capital_2_red">W</hi>han that Aprille with his shoures soote.</p>
+                    <p>The droghte of Marche hath perced to the roote</p>
+                </item>
+                <item>Missing capitals will have a blank space provided, mimicking their appearance
+                        in the text. The letter will be included in the XML, though, with a <code>@rend</code> attribute of "hidden." Any guide letters will be indicated via note.
+                </item>
+                <item>Underlined text will be rendered thusly: <hi rend="underline">text</hi>. It will be modfied still further should the underlining be in a different color than the main body of the text.  For example, a red underline will appear as follows: <hi rend="underline_red">text</hi>.
+                </item>
+                <item>Paraph marks will mimic their color and line height in the text. So, for
+                        example, a single-line blue paraph mark will appear thusly: 
+                    <p><hi rend="blue_pilcrow">¶</hi>Heere bigineeth the miller his tale</p>
+                </item>
+                <item>Letters touched by rubrication will be rendered thusly: <hi rend="touched"
+                            >T</hi>.
+                </item>
+                <item>Expanded abbreviations in the text are indicated thusly: ex<emph
+                            rend="italic">am</emph>ple.
+                </item>
+                <item>Damaged but legible material is indicated thusly:
+                        <damage>example</damage>.
+                </item>
+                <item>A gap in the text through damage is indicated thusly:<gap quantity="7"
+                            unit="chars" reason="illegible"/>, where the number of dots indicate the
+                        likely number of missing letters based on the other witnesses.
+                </item>
+                <item>Insertions will be rendered inline with the text as though they were on the
+                        same line, and will appear thusly: <add>insertion</add>. Any unusual
+                        characteristics regarding the insertion will be mentioned via note.
+                </item>
+                <item>Deletions will be rendered thusly: <del>deletion</del>
+                </item>
+                <item>Substitutions will be rendered inline with the text, and will appear thusly: <subst>
+                            <del>inertion</del>
+                            <add>insertion</add>
+                        </subst>. Any unusual characteristics regarding the substitution will be
+                        mentioned via note.
+                </item>
+                <item>Specific issues regarding the text will be indicated via a footnote either
+                        immediately after the item referenced or at the end of the line. They have
+                        been color-coded to indicate the type of note they are: <list
+                            type="bulleted">
+                            <item>Explanatory notes provide the reasoning for the editorial choices
+                                made, with reference to the image provided. They are indicated
+                                    thusly:<note n="explanatory">The text for the explanatory note will appear like this</note>.</item>
+                            <item>Informational notes provide non-editorial contextual information
+                                such as particular scribal renderings or relationships between the
+                                witnesses. They are indicated thusly:<note
+                                    n="informational">The text for the informational note will appear like this</note>.</item>
+                            <item>Notes unrelated either to the specifics of the text or containing
+                                both explanatory and informational elements are indicated
+                                    thusly:<note n="other">The text for all other notes will appear like this</note>.</item>
+                        </list>
+                    
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

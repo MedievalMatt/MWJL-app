@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package 
+  xmlns="http://expath.org/ns/pkg" name="http://sandbox.matthewedavis.net/apps/mwjl-app"
+  abbrev="mwjl-app" version="1.0.0" spec="1.0">
+  <title>Test Dev for Minor Works of John Lydgate</title>
+  <dependency processor="http://exist-db.org" semver-min="5.3.0"/>
+</package>

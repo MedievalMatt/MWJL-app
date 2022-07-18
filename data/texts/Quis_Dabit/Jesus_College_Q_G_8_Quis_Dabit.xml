@@ -233,14 +233,14 @@
                     <zone n="EETS.QD.I">
                         <line n="l.1"><hi rend="touched">Q</hi>uis dabit capiti meo fontem
                                 lacr<ex>i</ex>ma<ex>rum</ex><note place="bottom" anchored="true"
-                                type="explanatory">The title is in a somewhat sloppy textura rotunda
+                                n="explanatory">The title is in a somewhat sloppy textura rotunda
                                 rather than the anglicana of the main body of the
                             text.</note></line>
                     </zone>
                     <zone n="EETS.QD.1">
                         <line n="l.1"><hi rend="capital_missing_3">W</hi>ho shal <hi
                                 rend="underline">yeue</hi> vn to <hi rend="underline">myn hede</hi>
-                            a well .<note place="bottom" anchored="true" type="explanatory">There is
+                            a well .<note place="bottom" anchored="true" n="explanatory">There is
                                 no guide letter, but there is a mark to the left of the space that
                                 may indicate the same intent.</note></line>
                         <line n="l.2"><hi rend="touched">O</hi>f bitter terys my sorowes to <hi
@@ -283,7 +283,7 @@
                                 >enmys</hi> wengeable crueltee . </line>
                         <line n="l.7"><hi rend="touched">D</hi>irkenyd with dethe his eyne nowe made
                                 <hi rend="underline">blynde</hi><note place="bottom" anchored="true"
-                                type="explanatory">The "de" here has been corrected and written over
+                                n="explanatory">The "de" here has been corrected and written over
                                 another glyph, but the glyph cannot be made out.</note> .</line>
                         <line n="l.8"><hi rend="touched">A</hi> twix two <hi rend="underline"
                                 >thewes</hi> nailed to a <hi rend="underline">tre</hi> .</line>
@@ -301,7 +301,7 @@
                         <line n="l.5"><hi rend="touched">W</hi>han shall this day st<ex>er</ex>re
                                 <hi rend="underline">shew</hi> me his bemys <hi rend="underline"
                                 >bright </hi>.<note place="bottom" anchored="true"
-                                type="explanatory">"Sterre" in this line appears to have been
+                                n="explanatory">"Sterre" in this line appears to have been
                                 inserted into a provided space, as the ink color is darker than the
                                 rest of the line and is similar to that of the "de" correction noted
                                 above.</note></line>
@@ -316,7 +316,7 @@
                     <zone n="EETS.QD.4">
                         <line n="l.1"><hi>A</hi>ll the <hi rend="underline">doughtren </hi>of <hi
                                 rend="underline">Ier<ex>usale</ex>m</hi> .<note place="bottom"
-                                anchored="true" type="explanatory">the continuous bar beginning over
+                                anchored="true" n="explanatory">the continuous bar beginning over
                                 the r, passing through the l, and concluding over the m suggests
                                 that the l should be considered as part of an abbreviation rather
                                 than as seperate glyph bracketed by two suspensions.</note></line>
@@ -491,7 +491,7 @@
                         <line n="l.6"><hi rend="touched">A</hi>
                             <hi rend="underline">geyn</hi> þ<ex>er</ex>e seet<ex>is</ex> of stones
                             and <hi rend="underline">perree</hi> .<note place="bottom"
-                                anchored="true" type="informational">The mark to the left of the A
+                                anchored="true" n="informational">The mark to the left of the A
                                 here seems to serve no purpose.</note></line>
                         <line n="l.7"><hi rend="touched">A</hi>nd for <hi rend="underline"
                                 >mankynd</hi> þat was þurgh <hi rend="underline">synne lorn</hi><hi
@@ -558,7 +558,7 @@
                                 >stronge</hi> fight he st<ex>re</ex>ngiled þe leon .</line>
                         <line n="l.5"><hi rend="touched">T</hi>hus was my son mankynde <hi
                                 rend="underline">Champio</hi><hi rend="underline">n</hi> .<note
-                                place="bottom" anchored="true" type="explanatory">The mark on "n" at
+                                place="bottom" anchored="true" n="explanatory">The mark on "n" at
                                 the end of the line here is otiose. Neither "leon" or "oblacion"
                                 have any indication of abbreviation, and so it seems unlikely that a
                                 work intended to rhyme with them would include the
@@ -587,7 +587,7 @@
                                 rend="underline">a grife .</hi></line>
                         <line n="l.8"><hi rend="touched">W</hi>han I first saw hym <hi
                                 rend="underline">nailed</hi> to a<hi rend="underline"> tre
-                                .</hi><note place="bottom" anchored="true" type="explanatory">There
+                                .</hi><note place="bottom" anchored="true" n="explanatory">There
                                 is what appears to be an "e" to the left of the line here. When
                                 combined with the mark at line six of stanza eleven, it seems likely
                                 that this is either to indicate a stopping point or a shift in

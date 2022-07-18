@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_lydgate.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="HeaderInfo">
+        <fileDesc>
+            <titleStmt xml:id="Mumming_London">
+                <title type="full">
+                    <title type="main">
+                        <emph>A Mumming at London</emph>
+                    </title>
+                    <title type="sub">Trinity R.3.20 Verses</title>
+                </title>
+                <author>John Lydgate</author>
+                <editor>
+                    <persName xml:id="medavis">
+                        <surname>Davis</surname>
+                        <forename sort="1">Matthew</forename>
+                        <forename sort="2">Evan</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <pubPlace/>
+                <availability status="restricted" xml:id="Trinity_R_3_20">
+                    <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>
+                            <graphic url="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+                            The transcription of this work is licensed under a <ref
+                                target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+                                Commons Attribution-NonCommercial-ShareAlike 4.0 International
+                                License.</ref> NEED TO INCLUDE COPYRIGHT BLOCK FOR TRINITY
+                            R.3.20</p>
+                    </licence>
+                </availability>
+                <date/>
+            </publicationStmt>
+            <sourceDesc xml:id="Mumming_London">
+                <!-- use LIDO here to build out space? -->
+                <msDesc xml:id="Trinity_R_3_20">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region>Cambridgeshire</region>
+                        <settlement>Cambridge</settlement>
+                        <institution>Trinity College</institution>
+                        <idno>R.3.20</idno>
+                    </msIdentifier>
+                    <msContents/>
+
+                    <physDesc>
+                        <!--this whole section needs to be better written.  The sections will be used to make up the appropriate bits of html -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material/>
+                                    <p/>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p n="stanza_layout"/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole" script="secretary">
+                                <p n="hand_intro"/>
+                                <p n="hand_otiose"/>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <p/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            <sourceDesc xml:id="MacCracken">
+                <bibl type="book">
+                    <author> John Lydgate </author>
+                    <editor>Henry Noble MacCracken</editor>
+                    <publisher>The Early English Text Society</publisher>
+                    <publisher>Oxford University Press</publisher>
+                    <pubPlace>London</pubPlace>
+                    <pubPlace>New York</pubPlace>
+                    <pubPlace>Toronto</pubPlace>
+                    <title type="full" level="m">
+                        <title type="main"> The Minor Poems of John Lydgate </title>
+                        <title type="sub"> Edited from all Available MSS., with an Attempt to
+                            Establish the Lydgate Canon </title>
+                    </title>
+                    <date when="1911">1911</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="enm">Middle English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <listChange>
+                <change when="20220802" who="#medavis" status="initial">Initial encoding
+                    began.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <sourceDoc xml:id="TextContent">
+        <surfaceGrp xml:id="g.x" n="gathering">
+            <surfaceGrp xml:id="f.27" n="folio">
+                <surface n="recto" xml:id="p.55">
+                    <label>Folio 27 Recto (page 55)</label>
+                    <zone n="EETS.ML.I">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Lo here filoweþe þe deuyse of a desguysing<!--suspended e after g?--> to fore þe gret</line>
+                        <line n="l.2">estates of þis lande þane being at Londo<ex>n</ex>n <!--note about apparent punctuation mark--> made by Lidegate</line>
+                        <line n="l.3">dann Iohan þe Munk of Bury <!--note about mark?-->of dame <hi rend="underline">fortune</hi><!--note about mark after?--> dame <hi rend="underline"></hi>p<ex>ru</ex>de<ex>n</ex>ce</line>
+                        <line n="l.4">dame <hi rend="underline">Rigħtwysnesse</hi> and dame <hi rend="underline">ffortitudo</hi> beholdeþe for it</line>
+                        <line n="l.5">is moral plesaunt and notable<!--note about punctuation after?--> Loo first komeþe in dame</line> 
+                        <line n="l.6"><hi rend="underline">ffortune</hi></line>
+                    </zone>
+                    <zone n="EETS.ML.1">
+                        <line n="l.1"><hi rend="capital_2">L</hi>oo<note place="bottom" anchored="true" n="informational">Here a capital L has been placed over the top of the original nota mark and capital L. Unlike with other witnesses from the same manuscript no attempt has been made to erase the original capital.</note>oo here þis<!--possible capital thorn--> lady þat yee may see</line>
+                        <line n="l.2">Lady of mutabilityee</line>
+                        <line n="l.3">Whicħ þat called is ffortune</line>
+                        <line n="l.4">ffor seelde in oon / she dooþe contune</line>
+                    </zone>
+                </surface>
+                <surface n="verso" xml:id="p.56">
+                    <label>Folio 27 Verso (page 56)</label>
+                    <zone n="EETS.ML.1">
+                        <line n="l.5"><hi rend="pilcrow">¶</hi>ffor as shee haþe a double face</line>
+                        <line n="l.6">Rigħt so euery houre and space</line>
+                        <line n="l.7">She changeþe / hir condycyouns</line>
+                        <line n="l.8">Ay ful of transmutacyouns</line>
+                        <line n="l.9">Lyche as þe Romans of þe Roose</line>
+                        <line n="l.10">descryveþe hir / witħ outen glose</line>
+                        <line n="l.11">And telleþe pleyne / howe þat she</line>
+                        <line n="l.12">Haþe hir dwelling in þe see</line>
+                        <line n="l.13">Ioynning<note place="bottom" anchored="true" n="explanatory">The EETS edition of the text has "Ioyning," but a count of the number of minims and the placement of the tittle for the i indicates that it has to be two n's, most likely before the "i."</note> to a bareyne Roche</line>
+                        <line n="l.14">And on þat oon syde / dooþe aproche</line>
+                        <line n="l.15">A lytel mountaygne lyke an yle</line>
+                        <line n="l.16">Vpo<ex>n</ex>n whicħ lande some whyle</line>
+                        <line n="l.17">Þer growen fressħe floures nuwe</line>
+                        <line n="l.18">Wonder lusty of þeyre huwe</line>
+                        <line n="l.19">Dyuers trees / witħ fruyte elade</line>
+                        <line n="l.20">And briddes / witħ þey notes glaade</line>
+                        <line n="l.21">Þat singen / and maken melodye</line>
+                        <line n="l.22">In þeyre hevenly hermonye</line>
+                        <line n="l.23">Som<ex>m</ex>e sing on hye / and some lowe</line>
+                        <line n="l.24">And <hi rend="underline">zepherus</hi> þeer dooþe eeke blowe</line>
+                        <line n="l.25">Witħ his smooþe / attempree ayre</line>
+                        <line n="l.26">He makeþe þe weder / clere<!-- scribal note about the scribe's c here. See this and "which" in line 16 above--> and fayre</line>
+                        <line n="l.27">And þe<!-- note about "the" here - odd e formation --> sesoun ful of grace</line>
+                    </zone>
+                    <zone n="EETS.ML.2">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>But sodeynly in lytel space</line>
+                        <line n="l.2">Vpon<ex>n</ex> þis place mooste ryal</line>
+                        <line n="l.3">Þer comeþe a wawe and for dooþe al</line>
+                        <line n="l.4">ffirst þe fresshe <!--mention dot after "fresshe?" --> floures glade</line>
+                        <line n="l.5">On þeyre stalke / he doþe faade</line>
+                        <line n="l.6">To þeyre beautee / he dooþe wrong<!--why semi-colon in edited text? --></line>
+                    </zone>
+                    <zone n="EETS.ML.3">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>And þanne farweel þe briddes song</line>
+                        <line n="l.2">Braunche and bougħe of euery tree</line>
+                        <line n="l.3">She robbeþe hem of hir beautee</line>
+                        <line n="l.4">Leef and blossomes downe þey falle</line>
+                    </zone>
+                    <zone n="EETS.ML.4">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>And in þat place / she haþe an halle</line>
+                        <line n="l.2">Departed / and wonder desguysee</line>
+                    </zone>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="f.28" n="folio">
+                <surface n="recto" xml:id="p.57">
+                    <label>Folio 28 Recto (page 57)</label>
+                    <zone n="EETS.ML.4">
+                        <line n="1.3">ffrom þat oon syde / yee may see</line>
+                        <line n="l.4">Ceryously wrougħt for þe noones</line>
+                        <line n="l.5">Of golde of syluer / and of stoones</line>
+                        <line n="l.6">Whos richesse / may not be tolde</line>
+                    </zone>
+                    <zone n="EETS.ML.5">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>But þat oþer syde / of þat hoolde</line>
+                        <line n="l.2">Is ebylt in ougly wyse</line>
+                        <line n="l.3">And ruynous / for to devyse</line>
+                        <line n="l.4">Daubed of clay is þat doungeoun</line>
+                        <line n="l.5">Ay in poynt to falle adoun</line>
+                        <line n="l.6">Þat oon fayre / by apparence</line>
+                        <line n="l.7">And þat ooþer in existence</line>
+                        <line n="l.8">Shaken witħ syndes Rayne and hayle</line>
+                        <line n="l.9">And sodeynly / þer dooþe assayle</line>
+                        <line n="l.10">A raage floode / þat mancyoun</line>
+                        <line n="l.11">And ouerfloweþe it vp and doun</line>
+                        <line n="l.12">Her is no reskous / nor obstacle</line>
+                        <line n="l.13">Of þis ladyes habytacle</line>
+                    </zone>
+                    <zone n="EETS.ML.6">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>And as hir hous / is ay vnstable</line>
+                        <line n="l.2">Rigħt so hir self is deceynable</line>
+                        <line n="l.3">In oo poynt she is neuer elyche</line>
+                        <line n="l.4">Þis day she makeþe a man al ryche</line>
+                        <line n="l.5">And thorugħe / hir mutabilytee</line>
+                        <line n="l.6">Casteþe him to morowe / in pouertee</line>
+                        <line n="l.7">Þe proddest<!--make note regarding barred second d.  Any other examples?--> / she can gyve a fal</line>
+                        <line n="l.8">She made <hi rend="underline">Alexaundre</hi> wynnen al</line>
+                        <line n="l.9">Þat noman him witħ stonde dare</line>
+                        <line n="l.10">And caste him dovne / er he was ware</line>
+                        <line n="l.11">So did sheo / <hi rend="underline">Sesar Iulius</hi><!--note otiose mark at the end of line--></line>
+                        <line n="l.12">She made him first victorius</line><!--check initial v elsewhere in ms.  Does it follow the same model?-->
+                        <line n="l.13">Þaugħe to do weel<!--capital or initial character?--> / sheo beo ful looþe</line>
+                        <line n="l.14">Of a Bakers son<ex>n</ex>e / in sooþe</line>
+                        <line n="l.15">She made him a migħty Emperour</line>
+                        <line n="l.16">And hool of Roome was gounernour<!--is there a reason it would be un the way MacCraken has it?--></line>
+                        <line n="l.17">Maugrey þe Senaat / and al þeyre migħt</line>
+                    </zone>
+                    <zone n="EETS.ML.N.6">
+                        <line n="l.1"/>
+                        <line n="l.2"/>
+                        <line n="l.3"/>
+                        <line n="l.4"/>
+                        <line n="l.5"/>
+                        <line n="l.6"/>
+                        <line n="l.7"/>
+                        <line n="l.8"/>
+                        <line n="l.9"/>
+                        <line n="l.10"/>
+                        <line n="l.11">sesar a bakars soon<!--make note about a here as opposed to elsewhere.  Different hand?--></line>
+                    </zone>
+                </surface>
+                <surface n="verso" xml:id="p.58">
+                    <label>Folio 28 Verso (page 58)</label>
+                    <zone n="EETS.ML.6">
+                        <line n="l.18">But whanne þe sonne / shoone mooste brigħt</line>
+                        <line n="l.19">Of his tryumphe / fer and neer</line>
+                        <line n="l.20">And he was corouned / witħ laurier</line>
+                        <line n="1.21">Vnwarly thorugħe / hir mortal lawe</line>
+                        <line n="l.22">Witħ bodekyns / he was eslawe</line>
+                        <line n="l.23">At þe Capitoyle / in Consistorye</line>
+                        <line n="l.24">Loo / affter al his gret victorye</line>
+                    </zone>
+                    <zone n="EETS.ML.7">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>See howe þis lady can appalle</line>
+                        <line n="l.2">Þe noblesse of þeos prynces alle</line>
+                        <line n="l.3">She haþe twoo<note anchored="true" place="bottom" n="explanatory">MacCraken renders this as "two," but it's clear both from the layout of glyphs in the word and comparison with "with" both earlier and two lines below "twoo" that this must be two letters. This serves as another example of a stealth edit that MacCraken has done.</note> tonnys in hir Cellar</line>
+                        <line n="l.4">Þat oon is fful / of pyyment cler<!--any possibility is an "o"?  It's mor likely to be c, but the line is completed--></line>
+                        <line n="l.5">Confoit witħ sugre and spyces swoote</line>
+                        <line n="l.6">And mannys<note place="bottom" anchored="true" n="informational">MacCracken corrests this to "manny" in the EETS edition, making a marginal note that he's done so. I'm not sure why this word, in particular, merits a marginal note when other edits made do not. Additional 29729 renders it as "mannys," suggesting that it is either intentional to Lydgate's original composition or that Add. 29729 and Trinity R.3.20 shared an exemplar that contained "mannys."</note> delytable Roote</line>
+                        <line n="l.7">But þis is yit þe Worst<note place="bottom" anchored="true" n="explanatory">As mentioned in the "About this Manuscript" section above the scribe of this work is somewhat inconsistent about their use of two forms of the "w" glyph.  What I have been using to determine whether or not to consider it capitalized is the left curve in the ascender, as seen at line 9 in this section and line 1 in the next section.</note> of alle</line>
+                        <line n="l.8">Þat oþer tonne is ful of galle</line>
+                        <line n="l.9">Whoo taasteþe oon / þer is noon ooþer</line>
+                        <line n="l.10">He moste taaste eeke of þat toþer</line>
+                    </zone>
+                    <zone n="EETS.ML.8">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Whos sodeyne chaunges beon not sofft</line>
+                        <line n="l.2">ffor nowe sheo can reyse oon alofft</line>
+                        <line n="l.3">frome lowgħe estate / til hye degree</line>
+                        <line n="l.4">In olde storyes / yee may see</line>
+                        <line n="l.5">Estates chaunge / whoo takeþe keepe</line>
+                    </zone>
+                    <zone n="EETS.ML.9">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>ffor oon <hi rend="underline">Gyges</hi> / þat kepte sheepe</line>
+                        <line n="l.2">Sheo made / by vertu of a ring</line>
+                        <line n="l.3">ffor to be made / a worþy kyng</line>
+                        <line n="l.4">And by fals mourdre / I dare expresse</line>
+                        <line n="l.5">he came to al his worthynesse</line>
+                        <line n="l.6">Moost odyous / of alle thinges</line>
+                        <line n="l.7">And <hi rend="underline">Cresus</hi> ricchest / eeke of kynges</line>
+                        <line n="l.8">Was so surquydous in his pryde</line>
+                        <line n="l.9">Þat he wende vpo<ex>n</ex>n noo syde</line>
+                        <line n="l.10">Noon eorþhely thing<!--otiose mark - possible e suspension.  Mention in note? --> migħt him p<ex>er</ex>tourbe</line>
+                        <line n="l.11">Nor<note place="bottom" anchored="true" n="informational">The form of "N" here is markedly different from other examples -- see "Noon" above -- with an ascender to the left that dips well below what is expected and a malformed bow. It may be that the scribe started out writing the first "f" of "For," then corrected. Add. 29729 has "Nor," as does the EETS edition based on this manuscript.</note> his ryal estate / distourbe</line>
+                    </zone>
+                    <zone n="EETS.ML.10">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Til on a nigħt a dreme he mette</line>
+                        <line n="l.2">Howe <hi rend="underline">Iuvo</hi> / in þe ayre him sette</line>
+                        <line n="l.3">And <hi rend="underline">Iubiter</hi> / he vnderstondes</line>
+                    </zone>
+                    <zone n="EETS.ML.N.10>">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi> ecclesiastic<ex>us</ex></line>
+                        <line n="l.2">xxvi°<!--include period after degree mark?--> cap°</line>
+                    </zone>
+                </surface>
+            </surfaceGrp>
+            <surfaceGrp xml:id="f.29" n="folio">
+                <surface n="recto" xml:id="p.59">
+                    <zone n="EETS.ML.10">
+                        <line n="l.4">Gaf him Water vn<note place="bottom" anchored="true" n="explanatory">MacCraken has "vn" here, but the form should be noted because it seems to be limited to just the initial line of a page (see, for example, "vertues" on the first line of page 61). This form is markedly different from both initial "v" as seen elsewhere (see, for example, the initial glyph of "vnderstondes" in the final line of the prior page) and the flourished "v" form seen internally in words like "pourveyaunce" in the next.</note> to his handes</line>
+                        <line n="l.5">And <hi rend="underline">phebus</hi> hoolde him þe towayle</line>
+                        <line n="l.6">But of þis dreme þe devynayle<!--otiose mark after e - significant?--></line>
+                        <line n="l.7">His dougħter gane to specefye</line>
+                        <line n="l.8">And fer to forne to prophesye</line>
+                        <line n="l.9">Whiche called / <hi rend="underline">Leryopee</hi></line>
+                        <line n="l.10">Sheo sayde he shoulde an hanged bee</line>
+                        <line n="l.11">Þis was hir exposicyoun</line>
+                        <line n="l.12">Loo howe hir<note place="bottom" anchored="true" n="explanatory">The EETS edition has "his" here, but the manuscript is fairly clear that it is "hir" based both on the prior line and the shape of "s" in the final position, as seen in "handes" at line one and the numerous terminal "s" glyphs in the following section. Additionally, Additional 29729 also has "hir" for this line, with an obvious difference between the hapes of the "r" and terminal "s" glyphs there as well.</note> pruyde was brougħt adovne</line>
+                    </zone>
+                    <zone n="EETS.ML.11">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>And alle þeos chaunges / yif þey beo sougħt</line>
+                        <line n="l.2">Þis fals lady / haþe hem wrougħt</line>
+                        <line n="l.3">A valed witħ þeyre sodeyne showres</line>
+                        <line n="l.4">Þe worþynesse of conquerroures</line>
+                        <line n="l.5">Reede of poetes þe comedyes</line>
+                        <line n="l.6">And in dyvers Tragedyes</line>
+                        <line n="l.7">Yee shal by lamentacyouns</line>
+                        <line n="l.8">ffynden þeyre / destruccyouns</line>
+                        <line n="l.9">A thousande moo þan I can telle</line>
+                        <line n="l.10">In to mescheef how þey felle</line>
+                        <line n="l.11">dovne frome hir wheel / on<!--dot above o - otiose or meaningful? --> see and lande</line>
+                    </zone>
+                    <zone n="EETS.ML.12">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Þer fore hir malys / to witħstande<!--check other examples of h-s connection to see if it is always spaced or not. Might be "with stande"--></line>
+                        <line n="l.2">Hir pompe hir surquydye / hir pryde</line>
+                        <line n="l.3">Yif she wol / a whyle abyde</line>
+                        <line n="l.4">ffoure ladyes shałł come heer a noon<note place="bottom" anchored="true" n="explanatory">The EETS edition renders this as "anoon," which is understandable considring the proximity of the two words in the line. However, when compared with words like "witħstande" earlier in this same section, as well as elsewher eon this page, it seems that it should be rendered as two words, with the "n" glyph in second position looking similar to those that serve as markers of a new section of speech. Interestingly, both the initial "n" glyph for this section and the header following suggest that that curved descender on the left was rendered after the letter proper was formed, which is what we see here.</note></line>
+                        <line n="l.5">Yif sheo beo hardy in þis place</line>
+                        <line n="l.6">Oonys ffor to shewe hir double face</line>
+                    </zone>
+                    <zone n="EETS.ML.II">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Nowe komeþe here þe first lady of þe foure / dame <hi rend="underline">Prudence</hi></line>
+                    </zone>
+                    <zone n="EETS.ML.13">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Loo heer þis lady in youre presence</line>
+                        <line n="l.2">Of poetis called is dame <hi rend="underline">prudence</hi></line>
+                        <line n="l.3">Þe whicħ / Witħ hir mirrour brigħt</line>
+                    </zone>
+                </surface>
+                <surface n="verso" xml:id="p.60">
+                    <zone n="EETS.ML.13">
+                        <line n="l.4">By þe pourveyaunce of hir forsigħt</line>
+                        <line n="l.5">And hir myrtrour called <hi rend="underline">provydence</hi></line>
+                        <line n="l.6">is strong to make resistance</line>
+                        <line n="l.7">In hir forsigħt as it is Rigħt</line>
+                        <line n="l.8">Ageyns fortune / and al hir migħt</line>
+                        <line n="l.9">ffor <hi rend="underline">Senec</hi> seyþe / who þat can see</line>
+                        <line n="l.10">Þat <hi rend="underline">prudence</hi> / haþe eyegħen three</line>
+                        <line n="l.11">Specyally in hir lookynges</line>
+                        <line n="l.12">To considre / three maner thinges</line>
+                        <line n="l.13">Alweyes by good avysement</line>
+                        <line n="l.14">Thinges passed and eeke present</line>
+                        <line n="l.15">And thinges affter þat shal falle</line>
+                        <line n="l.16">And doon hir Inwarde besy peyne</line>
+                        <line n="l.17">Thinges present for to ordeyne</line>
+                        <line n="l.18">Avysely on euery syde</line>
+                        <line n="l.19">And future thinges for to p<ex>ro</ex>vyde</line>
+                        <line n="l.20">Þe thinges passed in substaunce</line>
+                        <line n="l.21">ffor to haue in Remembraunce</line>
+                        <line n="l.22">And who þus dooþe I say þat hee</line>
+                        <line n="l.23">Verrayly haþe yegħen three</line>
+                        <line n="l.24">Comitted vn to his diffence</line>
+                        <line n="l.25">Þe trowe myrrour of <hi rend="underline">prouydence</hi></line>
+                    </zone>
+                    <zone n="EETS.ML.14">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Þane þis lady is his guyde</line>
+                        <line n="l.2">him to defende on euery syde</line>
+                        <line n="l.3">Ageyns <hi rend="underline">fortune</hi> / goode and p<ex>er</ex>uerse</line>
+                        <line n="l.4">And al hir power for to reuerse</line>
+                        <line n="l.5">ffor fraunchysed and liberte</line>
+                        <line n="l.6">ffrome his power to goo free</line>
+                        <line n="l.7">Stonde alle flokes in sentence</line>
+                        <line n="l.8">Wheeche beon gouerned by <hi rend="underline">Prudence</hi></line>
+                    </zone>
+                    <zone n="EETS.ML.N.14">
+                        <line n="l.1">i. p<ex>ro</ex>videncia</line>
+                    </zone>
+                    <zone n="EETS.ML.III">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Nowe sheweþe hir heer þe secou<ex>n</ex>de Lady dame Rigwysnesse</line>
+                    </zone>
+                    <zone n="EETS.ML.15">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Seoþe here þis lady <!--include dot?  meant to be comma --> Rigħtwysnesse</line>
+                    </zone>
+                </surface>
+            </surfaceGrp>  
+            <surfaceGrp xml:id="f.30" n="folio">
+                <surface n="recto" xml:id="p.61">
+                    <zone n="EETS.ML.15">
+                        <line n="l.1">Of alle vertues she is pry<ex>n</ex>cesse</line>
+                        <line n="l.2">ffor by þe scales / of hir balaunces</line>
+                        <line n="l.3">Sheo sette hem alle in gouuernaunces<!--mention that there are two u/n glyphs?  speculate as to why?--></line>
+                        <line n="l.4">She putteþe a syde / it is no dreede</line>
+                        <line n="l.5">ffrensħip fauour and al kyns meede</line>
+                        <line n="l.6"><hi rend="underline">Love</hi> and <hi rend="underline">drede</hi> / she setteþe at nougħt</line>
+                        <line n="l.7">ffor rigħtful doome may not beo bougħt</line>
+                        <line n="l.8">And <hi rend="underline">Rigħtwysnesse</hi> Who can espye</line>
+                        <line n="l.9">Haþe neyþer hande ner yegħe</line>
+                        <line n="l.10">She loste hir hande ful yore agoone</line>
+                        <line n="l.11">ffor she resceyueþe gyfftes noone</line>
+                        <line n="l.12">Noþer of freonde / neyþer of foo</line>
+                        <line n="l.13">And she haþe lost hir sigħt al soo</line>
+                        <line n="l.14">ffor of rigħt sheo dooþe p<ex>ro</ex>vyde</line>
+                        <line n="l.15">Nougħt for to looke on neyþer syde</line>
+                        <line n="l.16">To hyegħe estate / ner lowe degree</line>
+                        <line n="l.17">But dooþe to boþen al equytee</line>
+                        <line n="l.18">And makeþe noon excepcyoun</line>
+                        <line n="l.19">To neyþer part but of Raysoun</line>
+                        <line n="l.20">And for þe pourpos of þis mater</line>
+                        <line n="l.21">Of a Iuge yee shal heere</line>
+                        <line n="l.22">Whicħ neuer his lyff of entent</line>
+                        <line n="l.23">Þer passed no Iugement</line>
+                        <line n="l.24">By his lippes of falsnesse</line>
+                        <line n="l.28">Of whome þe story dooþe expresse</line>
+                        <line n="l.29">Affter his deeþe / by acountes cleer</line>
+                        <line n="l.30">More þane three hundreþe yeer</line>
+                        <line n="l.31">His body as is made mencyoun<!--mention otoiose mark at end of n here?--></line>
+                        <line n="l.32">Was tourned<note place="bottom" anchored="true" n="explanatory">To modern eyes this looks like an "m," but comparing it with the "r" glyph in "story" at line 28 or "three" at line 30 clarifies that this is an "r."</note> vn to corrupcyoun</line>
+                        <line n="l.33">Þe story telleþe it is no dreed</line>
+                        <line n="l.34">But lyche a Roos / swoote an reed</line>
+                        <line n="l.35">Mouþe and lippes werne yfounde</line>
+                        <line n="l.36">Nougħt corrupte / but hoole and sounde</line>
+                        <line n="l.37">ffor trouthis<note place="bottom" anchored="true" n="explanatory">The EETS edition separates these but does not provide indication, as it does with the "to-" prefix, that this is an editorial decision. I don't believe this is wrong, but it another example of MacCracken making an editorial decision and not indicating that he's done so. Additional 29729 has "truth" without "is" or any indication that this is a genitive form.</note> þat he did expresse</line>
+                        <line n="l.38">In alle hees doomes of RitħWysnesse<note place="bottom" anchored="true" n="explanatory">The "w" is rendered in the capital form, which is different than all other forms of "rightwysnesse" seen in this work. I believe this to be due to the rendering of "right" as "rith" in this singular instance and is a scribal error. In the interest of rendering things as closely to the manuscript as possible, however, I have capitalized the "W" internally here to represent this. Additionally, there is an otiose mark to the right of this line, where the scribe has placed marginal references on other pages.</note></line>
+                    </zone>
+                    <zone n="EETS.ML.16">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>ffor þis lady / witħ þeos balaunce</line>
+                    </zone>
+                </surface>
+                <surface n="verso" xml:id="p.62">
+                    <zone n="EETS.ML.16">
+                        <line n="l.2">Was witħ him / of acqweyntaunce</line>
+                        <line n="l.3">whicħ him made In his ententys</line>
+                        <line n="l.4">To gyf alle Rigħt wyse<!--consider a note on this one--> Iugementis</line>
+                        <line n="l.5">Wher<!--mention lack of terminal e?--> fore þis lady whicħ yee heer see</line>
+                        <line n="l.6">Witħ hir balaunces / of equytee</line>
+                        <line n="l.7">Haþe þe scallis hanged soo</line>
+                        <line n="l.8">Þat she haþe no thing to doo</line>
+                        <line n="l.9">Neuer witħ <hi rend="underline">ffortunes</hi> doublenesse</line>
+                        <line n="l.10">ffor euer in oon stant Rigħtwysnesse</line>
+                        <line n="l.11">Nowher<!--note odd N form here?--> moeving<!--check against MS--> / to ne froo</line>
+                        <line n="l.12">In no thing þat she haþe to doo</line>
+                    </zone>
+                    <zone n="EETS.ML.III">
+                        <line n="l.1"><hi rend="pilcrow">¶</hi>Loo heer komeþe in nowe þe thridde lady called <hi rend="underline">ffortitudo</hi></line>
+                    </zone>
+                    <zone n="EETS.ML.17">
+                        
+                    </zone>
+                </surface>
+            </surfaceGrp>
+        </surfaceGrp>
+    </sourceDoc>
+</TEI>

@@ -116,8 +116,8 @@
                     <label>Folio 66 Verso</label>
                     <graphic url="British_Library_Harley_2255_f66v.jpg"/>
                     <zone n="EETS.QD.I">
-                        <line n="l.1"> Quis dab<ex>it</ex> capiti </line>
-                        <line n="l.2"> Meo fonte<ex>m </ex>lac<ex>rimarium</ex>
+                        <line n="l.1"> <hi rend="red">Quis dab<ex>it</ex> capiti</hi></line>
+                        <line n="l.2"> <hi rend="red">Meo fonte<ex>m </ex>lac<ex>rimarium</ex></hi>
                         </line>
                     </zone>
                     <zone n="EETS.QD.1">
@@ -152,9 +152,9 @@
                         <line n="l.1">
                             <hi rend="gold_pilcrow">¶</hi>My Joye / my liħt / my lanterne moost
                             enteere </line>
-                        <line n="l.2"> This heuenly <hi rend="underline">phebus</hi> is clipsid of
+                        <line n="l.2"> This heuenly <hi rend="underline_red">phebus</hi> is clipsid of
                             his liħt </line>
-                        <line n="l.3"> This <hi rend="underline">Esperus</hi> / hath hid his beemys
+                        <line n="l.3"> This <hi rend="underline_red">Esperus</hi> / hath hid his beemys
                             cleere </line>
                         <line n="l.4"> And is of / certeyned fro my sight </line>
                         <line n="l.5"> whan shal his day sterre / shewe me his bemys briħt </line>
@@ -164,11 +164,11 @@
                     </zone>
                     <zone n="EETS.QD.4">
                         <line n="l.1">
-                            <hi rend="blue_pilcrow">¶</hi>O alle ye douħtren of <hi rend="underline"
+                            <hi rend="blue_pilcrow">¶</hi>O alle ye douħtren of <hi rend="underline_red"
                                 >ierusaleem</hi>
                         </line>
                         <line n="l.2"> Ha som compassiou<ex>n</ex> / on my siħħes deepe </line>
-                        <line n="l.3"> nat lik the gladnesse / which I had in <hi rend="underline"
+                        <line n="l.3"> nat lik the gladnesse / which I had in <hi rend="underline_red"
                                 >Bedleem</hi>
                         </line>
                         <line n="l.4"> cometh neer of routhe / <ex>&amp;</ex> helith me for to weepe </line>
@@ -196,7 +196,7 @@
                         <line n="l.1">
                             <hi rend="gold_pilcrow">¶</hi>And alle ye women / tapese myn hevynesse </line>
                         <line n="l.2"> Remembrith the p<ex>ro</ex>cesse / of this dreedful victory </line>
-                        <line n="l.3"> See to for <hi rend="underline">pilat</hi> / by many fals
+                        <line n="l.3"> See to for <hi rend="underline_red">pilat</hi> / by many fals
                             witnesse </line>
                         <line n="l.4"> How he was dampnyd / in the consistory </line>
                         <line n="l.5"> Bad ye evir / or sauħ in history </line>
@@ -231,7 +231,7 @@
                         <line n="l.5"> Dauntyng the power / of his infernal levene </line>
                         <line n="l.6"> Out of his thraldom / to make the go gre </line>
                         <line n="l.7"> with many mo woundys / than any man kan nevene </line>
-                        <line n="l.8"> Whan he at <hi rend="underline">Caluary</hi> was nayled to a
+                        <line n="l.8"> Whan he at <hi rend="underline_red">Caluary</hi> was nayled to a
                             tre </line>
                     </zone>
                     <zone n="EETS.QD.9">
@@ -284,12 +284,12 @@
                     </zone>
                     <zone n="EETS.QD.13">
                         <line n="l.1">
-                            <hi rend="blue_pilcrow">¶</hi>ffor <hi rend="underline">Adamys</hi>
+                            <hi rend="blue_pilcrow">¶</hi>ffor <hi rend="underline_red">Adamys</hi>
                             synne / thus was my sone slayn </line>
                         <line n="l.2"> thoruħ the Oold serpent bi thassent of eve </line>
                         <line n="l.3"> Whan thoruh my meeknesse / mankynde was mad fayn </line>
                         <line n="l.4"> Hir name turnyd / ther thraldam to releve </line>
-                        <line n="l.5"> And <hi rend="underline">gabriel</hi> cam / my meeknesse for
+                        <line n="l.5"> And <hi rend="underline_red">gabriel</hi> cam / my meeknesse for
                             to preve </line>
                         <line n="l.6"> Sent by oon accoord / of al the trynyte </line>
                         <line n="l.7"> But ful soore aftir / it did my herte greve </line>
@@ -306,14 +306,14 @@
                             <hi rend="blue_pilcrow">¶</hi>ffor mannys love / he fauħt a gret batail </line>
                         <line n="l.2"> with his sevene hedys / he outraied þe dragou<ex>n</ex>
                         </line>
-                        <line n="l.3"> lyk myħty <hi rend="underline">Sampson</hi> / withoute plate
+                        <line n="l.3"> lyk myħty <hi rend="underline_red">Sampson</hi> / withoute plate
                             or mayl </line>
                         <line n="l.4"> In his strong fiħt / he stranglid the leou<ex>n</ex>
                         </line>
                         <line n="l.5"> Thus was my sone / mankyndis champiou<ex>n</ex>
                         </line>
                         <line n="l.6"> Thoruħ his moost myħty magnanymyte </line>
-                        <line n="l.7"> as <hi rend="underline">kyng</hi> and <hi rend="underline"
+                        <line n="l.7"> as <hi rend="underline_red">kyng</hi> and <hi rend="underline_red"
                                 >bisshop</hi> / made his oblaciou<ex>n</ex>
                         </line>
                         <line n="l.8"> vpon the hiħ auhter / of the roode tre </line>
@@ -323,7 +323,7 @@
                             <hi rend="gold_pilcrow">¶</hi>My sonys suffrau<ex>n</ex>ce / to sathan
                             was gret wrak </line>
                         <line n="l.2"> whos gret meeknesse / did I nouħ suffise </line>
-                        <line n="l.3"> Cleerly figured / whan that <hi rend="underline">Isaak</hi>
+                        <line n="l.3"> Cleerly figured / whan that <hi rend="underline_red">Isaak</hi>
                         </line>
                         <line n="l.4"> Was by his fadir / offrid in sacrifise </line>
                         <line n="l.5"> Nat disobeyeng / in no maner wyse </line>
@@ -333,15 +333,15 @@
                     </zone>
                     <zone n="EETS.QD.16">
                         <line n="l.1">
-                            <hi rend="blue_pilcrow">¶</hi>He myhte be callyd <hi rend="underline"
+                            <hi rend="blue_pilcrow">¶</hi>He myhte be callyd <hi rend="underline_red"
                                 >Eleasar</hi> the secounde </line>
                         <line n="l.2"> the champiou<ex>n</ex> / moost myħty and notable </line>
-                        <line n="l.3"> That gaf <hi rend="underline">tholifaunt</hi> / his last
+                        <line n="l.3"> That gaf <hi rend="underline_red">tholifaunt</hi> / his last
                             mortal wounde </line>
                         <line n="l.4">
-                            <hi rend="underline">Machabeo</hi><hi rend="underline">rum</hi> / this
+                            <hi rend="underline_red">Machabeo</hi><hi rend="underline">rum</hi> / this
                             stoory is no fable </line>
-                        <line n="l.5"> And as <hi rend="underline">hercules</hi> / in his conquestys
+                        <line n="l.5"> And as <hi rend="underline_red">hercules</hi> / in his conquestys
                             stable </line>
                         <line n="l.6"> Bar vp the heuenys / in his humanyte </line>
                         <line n="l.7"> ffor whom my sorwys / wer maad moost lamentable </line>
@@ -356,7 +356,7 @@
                             <hi rend="gold_pilcrow">¶</hi>Thus deth with deth / was outraied
                                 <ex>&amp;</ex> brouħt lowe </line>
                         <line n="l.2"> Mankyndes quarel / maad victorious </line>
-                        <line n="l.3"> ffor than <hi rend="underline">leviathan</hi> / was bounde
+                        <line n="l.3"> ffor than <hi rend="underline_red">leviathan</hi> / was bounde
                             and ovirthrowe </line>
                         <line n="l.4"> whan with his tryvmphis / moost singuler glorious </line>
                         <line n="l.5"> My sone had fowten / with his blood precious </line>
@@ -385,6 +385,9 @@
                         <line n="l.6"> lyk ther demerytis / to shewe his cruelte </line>
                         <line n="l.7"> but shewe to them / his mercy and his grace </line>
                         <line n="l.8"> That for ther love was nailed to a tre </line>
+                    </zone>
+                    <zone n="EETS.QD.II">
+                        <line n="l.1"><hi rend="touched_underline_red">E</hi><hi rend="underline_red">x<ex>plici</ex>t</hi></line>
                     </zone>
                 </surface>
             </surfaceGrp>

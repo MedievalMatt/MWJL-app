@@ -22,7 +22,7 @@ declare variable $text := request:get-data(); (:this variable allows the pipelin
         <h1>Titles list</h1>
         <ul>{
             for $title in $text/descendant::m:title
-            return <li>{$title ! string()}</li>
+            return <li>{$title ! fn:string()}</li>
         }</ul>
     </body>
 </html>
